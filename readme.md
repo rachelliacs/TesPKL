@@ -2,4 +2,4 @@ Menampilkan tabel siswa yang disertai dengan fitur menambah, mengubah, dan mengh
 
 ![index](screenshot/index.jpeg)
 ![database](screenshot/tb_siswa.jpeg)
-![database](screenshot/isi_tb_siswa.jpeg)
+![database](screenshot/isi tb_siswa.jpeg)
