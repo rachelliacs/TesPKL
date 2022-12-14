@@ -10,7 +10,6 @@ if (!$koneksi) {
     die ("Gagal menghubungkan ke database");
 }
 
-$ID             = "";
 $Nama           = "";
 $Jenis_kelamin  = "";
 $Alamat         = "";
@@ -100,20 +99,22 @@ if (isset($_POST['submit'])) {
             <div class="card-body">
                 <?php 
                 if ($error) {
-                    ?>
-                        <div class="alert alert-danger" role="alert">
-                        <?php echo $error ?>
-                        </div>
-                    <?php
+                ?>
+                    <div class="alert alert-danger"role="alert">
+                    <?php echo $error ?>
+                    </div>
+                <?php
+                    header("refresh:5;url=index.php");
                 }
                 ?>
                 <?php 
                 if ($sukses) {
-                    ?>
-                        <div class="alert alert-success" role="alert">
+                ?>
+                    <div class="alert alert-success"role="alert">
                         <?php echo $sukses ?>
-                        </div>
-                    <?php
+                    </div>
+                <?php
+                    header("refresh:5;url=index.php");
                 }
                 ?>
                 <form action="" method="post">
@@ -140,7 +141,7 @@ if (isset($_POST['submit'])) {
                         </div>
                     </div>
                     <div class="col-12">
-                        <input type="submit" name="submit" value="Simpan Data" class="btn btn-primary">
+                        <input type="submit" name="submit" id="submit" value="Simpan Data" class="btn btn-primary">
                     </div>
                 </form>
             </div>
