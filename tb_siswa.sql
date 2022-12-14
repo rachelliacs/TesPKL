@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Dec 14, 2022 at 05:06 PM
+-- Generation Time: Dec 14, 2022 at 07:19 PM
 -- Server version: 10.1.38-MariaDB
 -- PHP Version: 7.3.2
 
@@ -41,7 +41,7 @@ CREATE TABLE `tb_siswa` (
 
 INSERT INTO `tb_siswa` (`ID`, `Nama`, `Jenis_kelamin`, `Alamat`) VALUES
 (1, 'Putra', 0, 'Jl. Danau toba no 33 RT 01 RW 03 Sawojajar Kedungkandang Malang'),
-(2, 'Putri', 1, 'Jl. Danau toba no 77 RT 11 RW 07 Sawojajar Kedungkandang Malang');
+(2, 'Putri', 1, 'Jl. Danau Ranau no 77 RT 11 RW 07 Sawojajar Kedungkandang Malang');
 
 --
 -- Indexes for dumped tables
@@ -61,7 +61,7 @@ ALTER TABLE `tb_siswa`
 -- AUTO_INCREMENT for table `tb_siswa`
 --
 ALTER TABLE `tb_siswa`
-  MODIFY `ID` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=6;
+  MODIFY `ID` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=10;
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
