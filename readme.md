@@ -1,5 +1,9 @@
 # Tes PKL
 Menampilkan tabel siswa yang disertai dengan fitur menambah, mengubah, dan menghapus data.
+
+### Demo
+![demo](https://youtu.be/wO9Z0PIr9IQ)
+
 ### Database 
 ![database](screenshot/tb_siswa.jpeg)
 ![database](screenshot/isitb_siswa.jpeg)
