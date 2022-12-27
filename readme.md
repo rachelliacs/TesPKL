@@ -2,11 +2,12 @@
 Menampilkan tabel siswa yang disertai dengan fitur menambah, mengubah, dan menghapus data.
 
 ### Demo
-![demo](https://youtu.be/wO9Z0PIr9IQ)
+https://user-images.githubusercontent.com/63543929/209701994-870a5b62-16ec-4e3e-bd8c-cb5ec688dce1.mp4
 
 ### Database 
 ![database](screenshot/tb_siswa.jpeg)
 ![database](screenshot/isitb_siswa.jpeg)
+
 ### Screenshot Hasil Tes
 Read Data (Index):
 <br></br>
