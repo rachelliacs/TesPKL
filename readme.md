@@ -1,5 +1,5 @@
 # Tes PKL
-Menampilkan tabel siswa yang disertai dengan fitur menambah, mengubah, dan menghapus data.
+Menampilkan tabel siswa yang disertai dengan fitur menambah, mengubah, dan menghapus data dibangun dengan bahasa pemrograman **`PHP`** dan menggunakan database **`MySQL`**.
 
 ### Demo
 https://user-images.githubusercontent.com/63543929/209701994-870a5b62-16ec-4e3e-bd8c-cb5ec688dce1.mp4
